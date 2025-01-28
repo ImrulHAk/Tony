@@ -1,0 +1,372 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* common css end */
+
+/* navbar start */
+.nav_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+nav ul li a:hover {
+    color: #F2B86B;
+    transition: 0.4s;
+}
+
+/* navbar end */
+
+/* banner start */
+#banner {
+    padding: 73px;
+}
+
+#banner .left {
+    width: 50%;
+}
+
+#banner .right {
+    width: 50%;
+}
+
+#banner .bannerwrapper {
+    display: flex;
+    align-items: center;
+}
+
+#banner .left h4 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #090A0C;
+}
+
+#banner .left h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #090A0C;
+}
+
+#banner .left h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #090A0C;
+}
+
+#banner .left p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3A3B3D;
+}
+
+#banner .left a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #ffffff;
+    background: #D9832E;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 14px 35px;
+    display: inline-block;
+    margin-top: 43px;
+}
+
+#banner .left a:hover {
+    background: #ffffff;
+    color: #D9832E;
+    border: 2px solid #D9832E;
+    transition: 0.4s;
+}
+
+/* banner end */
+
+/* about start */
+#about {
+    width: 100%;
+    background: #EAEDF2;
+}
+
+.title h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #000000;
+    padding-top: 48px;
+    padding-bottom: 10px;
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    background: #D9832E;
+}
+
+.title p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.about_main {
+    width: 100%;
+    display: flex;
+}
+
+.about_main .img {
+    width: 35%;
+    margin-bottom: 70px;
+}
+
+.about_main .text {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.about_main .text h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000000;
+}
+
+.about_main .text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #090A0C;
+    margin-top: 6px;
+}
+
+.about_main .text span {
+    color: #D9832E;
+}
+
+.about_main .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #555A64;
+    margin-top: 20px;
+}
+
+.abouttextwrapper {
+    display: flex;
+    margin-top: 10px;
+}
+
+.abouttextwrapper .left {
+    width: 50%;
+}
+
+.abouttextwrapper .right {
+    width: 50%;
+}
+
+.text .abouttextwrapper ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    position: relative;
+    margin-top: 7px;
+}
+
+.text .abouttextwrapper ul li::after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #555A64;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.text .abouttextwrapper ul li span {
+    font-weight: 300;
+    color: #555A64;
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+
+.text a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #D9832E;
+    padding: 14px 30px;
+    border: 2px solid transparent;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.text a:hover {
+    color: #D9832E;
+    background: #FFFFFF;
+    border: 2px solid #D9832E;
+    transition: 0.4s;
+}
+
+/* about end */
+
+/* skill start */
+.skillwrapper {
+    display: flex;
+    margin-bottom: 76px;
+}
+
+.skillwrapper .left {
+    width: 50%;
+}
+
+.skillwrapper .right {
+    width: 50%;
+}
+
+.skillwrapper .itemwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillwrapper .left .item h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #090A0C;
+}
+
+#skill .left .item {
+    width: 415px;
+    margin-top: 15px;
+}
+
+#skill .left .itemparcent {
+    margin-right: 50px;
+}
+
+#skill .right .skill_item h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+}
+
+#skill .right {
+    margin-top: 25px;
+}
+
+#skill .right .skill_item {
+    width: 220px;
+    border: 1px solid #D9832E;
+    border-radius: 10px;
+    padding: 27px 22px;
+    display: flex;
+    gap: 26px;
+}
+
+#skill .right .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: end;
+}
+
+.skill_item i {
+    font-size: 30px;
+    color: #D9832E;
+    margin-top: 5px;
+}
+
+/* skill end */
+
+/* services start */
+#services {
+    width: 100%;
+    background: #EAEDF2;
+}
+
+.service_item {
+    width: 31%;
+    align-items: center;
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 30px 40px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, .25);
+}
+
+.service_item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.service_item p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #000000;
+}
+
+.serviceswrapper {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-bottom: 65px;
+}
+
+/* services end */
+
+/* works start */
+#works .images {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+
+/* works end */
